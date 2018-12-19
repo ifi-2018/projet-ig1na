@@ -1,5 +1,6 @@
 package com.ifi.tp.controller;
 
+import com.ifi.tp.fights.bo.Fight;
 import com.ifi.tp.fights.service.FightService;
 import com.ifi.tp.trainers.bo.Trainer;
 import com.ifi.tp.trainers.service.TrainerService;
@@ -8,7 +9,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller
+import javax.websocket.server.PathParam;
+import java.util.List;
+
+@RestController
 public class FightController {
     private final FightService fightService;
     private final TrainerService trainerService;
@@ -19,18 +23,23 @@ public class FightController {
         this.trainerService = trainerService;
     }
 
-    @GetMapping("/fights")
-    public ModelAndView showFights() {
-        ModelAndView mv = new ModelAndView("fight");
-        mv.addObject("fight", fightService.getFights());
-        return mv;
+    @RequestMapping("/fights")
+    public List<Fight> getFights() {
+        return fightService.getFights();
     }
 
-    @PostMapping("/fight")
-    public void fight(@RequestParam String name1, @RequestParam String name2) {
+    @RequestMapping("/fights/{id}")
+    public Fight getFightFromId(@PathVariable int id) {
+        return fightService.getFightFromId(id);
+    }
+
+    @RequestMapping("/fight/{name1}/{name2}")
+    public Fight fight(@PathVariable String name1, @PathVariable String name2) {
         Trainer trainer1 = trainerService.getTrainer(name1);
         Trainer trainer2 = trainerService.getTrainer(name2);
-        fightService.fight(trainer1, trainer2);
+        Fight f = fightService.fight(trainer1, trainer2);
+        System.out.println(f);
+        return f;
     }
 
 

@@ -1,40 +1,44 @@
 package com.ifi.tp.fights.bo;
 
-import javax.persistence.Entity;
+import com.ifi.tp.trainers.bo.Trainer;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
 public class Fight {
-
     @Id
     @GeneratedValue
     private int id;
-
-    private String trainer1, trainer2, winner, loser;
+    private Trainer trainer1, trainer2, winner, loser;
+    private FightLogs logs;
 
     public Fight() {}
 
-    public Fight(String trainer1, String trainer2, String winner, String loser) {
+    public Fight(Trainer trainer1, Trainer trainer2, Trainer winner, Trainer loser, FightLogs logs) {
         this.trainer1 = trainer1;
         this.trainer2 = trainer2;
         this.winner = winner;
         this.loser = loser;
+        this.logs = logs;
     }
 
-    public String getTrainer1() {
+    public int getId() { return this.id; }
+
+    public Trainer getTrainer1() {
         return this.trainer1;
     }
 
-    public String getTrainer2() {
+    public Trainer getTrainer2() {
         return this.trainer2;
     }
 
-    public String getWinner() {
+    public Trainer getWinner() {
         return this.winner;
     }
 
-    public String getLoser() {
+    public Trainer getLoser() {
         return this.loser;
     }
+
+    public FightLogs getLogs() { return this.logs; }
 }
