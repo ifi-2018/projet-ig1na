@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrainerWebApp {
+public class FightWebApp {
 
     public static void main(String... args){
-          SpringApplication.run(TrainerWebApp.class, args);
+          SpringApplication.run(FightWebApp.class, args);
     }
 
 }

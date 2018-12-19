@@ -1,9 +1,15 @@
 package com.ifi.tp.trainers.bo;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.util.List;
 
+@Entity
 public class Trainer {
+    @Id
     private String name;
+    @OneToMany
     private List<Pokemon> team;
 
     public Trainer() {}

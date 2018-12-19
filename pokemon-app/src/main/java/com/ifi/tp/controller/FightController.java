@@ -38,7 +38,7 @@ public class FightController {
         Trainer trainer1 = trainerService.getTrainer(name1);
         Trainer trainer2 = trainerService.getTrainer(name2);
         Fight f = fightService.fight(trainer1, trainer2);
-        System.out.println(f);
+        System.out.println(f.getId());
         return f;
     }
 

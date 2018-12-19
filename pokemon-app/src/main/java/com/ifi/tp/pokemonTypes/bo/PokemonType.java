@@ -1,16 +1,17 @@
 package com.ifi.tp.pokemonTypes.bo;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
-
+@Entity
 public class PokemonType {
     private Integer baseExperience;
     private Integer height;
+    @Id
     private Integer id;
     private String name;
+    @ManyToOne
     private Sprites sprites;
+    @ManyToOne
     private Stats stats;
     private Integer weight;
     private Integer level;

@@ -3,11 +3,21 @@ package com.ifi.tp.trainers.bo;
 import com.ifi.tp.pokemonTypes.bo.PokemonType;
 import com.ifi.tp.pokemonTypes.bo.Stats;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+
+@Entity
 public class Pokemon {
+    @Id
+    private int id;
     private int pokemonNumber;
     private int level;
     private int hp;
+    @ManyToOne
     private Stats stats;
+    @ManyToOne
     private PokemonType pokemonType;
 
     public int getPokemonNumber() {

@@ -2,14 +2,16 @@ package com.ifi.tp.fights.bo;
 
 import com.ifi.tp.trainers.bo.Trainer;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@Entity
 public class Fight {
     @Id
     @GeneratedValue
     private int id;
+    @ManyToOne
     private Trainer trainer1, trainer2, winner, loser;
+    @ManyToOne
     private FightLogs logs;
 
     public Fight() {}
