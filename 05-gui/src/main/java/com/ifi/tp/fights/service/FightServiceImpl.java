@@ -38,7 +38,7 @@ public class FightServiceImpl implements FightService {
 
     @Override
     public Fight getFightFromId(int id) {
-        var url = fightServiceUrl + "/fight/" + id;
+        var url = fightServiceUrl + "/fights/" + id;
         return this.restTemplate.getForObject(url, Fight.class);
     }
 

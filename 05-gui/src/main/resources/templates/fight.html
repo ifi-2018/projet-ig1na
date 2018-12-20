@@ -23,7 +23,7 @@
 </nav>
 
 <div class="container">
-    <h1 class="pt-md-5">{{fight.trainer1.name}} VS {{fight.trainer2.name}}</h1>
+    <h1 class="pt-md-5">{{fight.trainer1}} VS {{fight.trainer2}}</h1>
 
     <!--div class="btn-group pb-md-5" role="group">
         <a href="/pokemons?view=front" type="button" class="btn {{#view_front}}btn-primary{{/view_front}} {{#view_back}}btn-secondary{{/view_back}}">Front</a>
@@ -31,9 +31,9 @@
     </div-->
 
     <ul class="list-group">
-        {{#fight.logs.logs}}
+        {{#fight.logs}}
         <li class="list-group-item">{{this}}</li>
-        {{/fight.logs.logs}}
+        {{/fight.logs}}
     </ul>
 
 

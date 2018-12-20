@@ -30,7 +30,7 @@ public class FightController {
         return mv;
     }
 
-    @GetMapping("/fight/{id}")
+    @GetMapping("/fights/{id}")
     public ModelAndView fight(@PathVariable int id) {
         ModelAndView mv = new ModelAndView("fight");
         Fight f = fightService.getFightFromId(id);

@@ -1,8 +1,7 @@
 package com.ifi.tp.fights.bo;
 
-import com.ifi.tp.trainers.bo.Trainer;
-
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Fight {
@@ -10,14 +9,13 @@ public class Fight {
     @Id
     @GeneratedValue
     private int id;
-    @ManyToOne
-    private Trainer trainer1, trainer2, winner, loser;
-    @ManyToOne
-    private FightLogs logs;
+    private String trainer1, trainer2, winner, loser;
+    @ElementCollection(targetClass = String.class)
+    private List<String> logs;
 
     public Fight() {}
 
-    public Fight(Trainer trainer1, Trainer trainer2, Trainer winner, Trainer loser, FightLogs logs) {
+    public Fight(String trainer1, String trainer2, String winner, String loser, List<String> logs) {
         this.trainer1 = trainer1;
         this.trainer2 = trainer2;
         this.winner = winner;
@@ -28,21 +26,21 @@ public class Fight {
 
     public int getId() { return id; }
 
-    public Trainer getTrainer1() {
+    public String getTrainer1() {
         return this.trainer1;
     }
 
-    public Trainer getTrainer2() {
+    public String getTrainer2() {
         return this.trainer2;
     }
 
-    public Trainer getWinner() {
+    public String getWinner() {
         return this.winner;
     }
 
-    public Trainer getLoser() {
+    public String getLoser() {
         return this.loser;
     }
 
-    public FightLogs getLogs() { return this.logs; }
+    public List<String> getLogs() { return this.logs; }
 }

@@ -24,7 +24,7 @@ public class FightController {
     }
 
     @RequestMapping("/fights")
-    public List<Fight> getFights() {
+    public Iterable<Fight> getFights() {
         return fightService.getFights();
     }
 
