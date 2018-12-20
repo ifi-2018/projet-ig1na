@@ -45,4 +45,12 @@ public class FightController {
         mv.addObject("fights", fightService.getFights());
         return mv;
     }
+
+    @GetMapping("/make-fight/{name}")
+    public ModelAndView makeFight(@PathVariable String name) {
+        ModelAndView mv = new ModelAndView("make-fight");
+        mv.addObject("trainer", trainerService.getTrainer(name));
+        mv.addObject("trainers", trainerService.getAllTrainers());
+        return mv;
+    }
 }

@@ -42,6 +42,12 @@ public class FightServiceImpl implements FightService {
         return this.restTemplate.getForObject(url, Fight.class);
     }
 
+    @Override
+    public List<Fight> getFightsFromTrainerName(String name) {
+        var url = fightServiceUrl + "/fightsof/" + name;
+        return this.restTemplate.getForObject(url, List.class);
+    }
+
     @Value("${fight.service.url}")
     void setFightServiceUrl(String fightServiceUrl) { this.fightServiceUrl = fightServiceUrl; }
 

@@ -42,5 +42,9 @@ public class FightController {
         return f;
     }
 
+    @RequestMapping("/fightsof/{trainerName}")
+    public Iterable<Fight> getFightsFromTrainerName(@PathVariable String trainerName) {
+        return fightService.getFightsFromTrainerName(trainerName);
+    }
 
 }

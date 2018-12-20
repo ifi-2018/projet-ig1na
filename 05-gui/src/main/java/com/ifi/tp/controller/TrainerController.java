@@ -1,5 +1,6 @@
 package com.ifi.tp.controller;
 
+import com.ifi.tp.fights.service.FightService;
 import com.ifi.tp.trainers.service.TrainerService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,22 +14,27 @@ public class TrainerController {
 
     @Autowired
     private TrainerService trainerService;
+    @Autowired
+    private FightService fightService;
 
     @GetMapping("/trainers")
     ModelAndView index(){
         var modelAndView = new ModelAndView("trainers");
-
         modelAndView.addObject("trainers", trainerService.getAllTrainers());
-
         return modelAndView;
     }
 
     @GetMapping("/trainers/{name}")
     ModelAndView index(@PathVariable String name){
         var modelAndView = new ModelAndView("trainer");
-
         modelAndView.addObject("trainer", trainerService.getTrainer(name));
+        return modelAndView;
+    }
 
+    @GetMapping("/trainers/fights/{name}")
+    ModelAndView trainerFights(@PathVariable String name) {
+        var modelAndView = new ModelAndView("fights");
+        modelAndView.addObject("fights", fightService.getFightsFromTrainerName(name));
         return modelAndView;
     }
 

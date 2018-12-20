@@ -68,10 +68,12 @@ public class FightServiceImpl implements FightService {
     @Override
     public Fight getFightFromId(int id) { return this.fightRepository.findById(id).orElse(null); }
 
-    private Pokemon pokemonFight(Pokemon first, Pokemon second) {
-        String nameFirst = first.getPokemonType().getName();
-        String nameSec = second.getPokemonType().getName();
+    @Override
+    public List<Fight> getFightsFromTrainerName(String name) {
+        return this.fightRepository.findByTrainer1OrTrainer2(name, name);
+    }
 
+    private Pokemon pokemonFight(Pokemon first, Pokemon second) {
         Pokemon loser = null;
         while(loser == null) {
            loser = pokemonAttack(first, second);

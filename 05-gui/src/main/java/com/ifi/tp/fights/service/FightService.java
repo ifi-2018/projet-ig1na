@@ -9,4 +9,5 @@ public interface FightService {
     Fight fight(Trainer trainer1, Trainer trainer2);
     List<Fight> getFights();
     Fight getFightFromId(int id);
+    List<Fight> getFightsFromTrainerName(String name);
 }
