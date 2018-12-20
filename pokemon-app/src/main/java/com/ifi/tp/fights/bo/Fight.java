@@ -6,6 +6,7 @@ import javax.persistence.*;
 
 @Entity
 public class Fight {
+
     @Id
     @GeneratedValue
     private int id;
@@ -24,7 +25,8 @@ public class Fight {
         this.logs = logs;
     }
 
-    public int getId() { return this.id; }
+
+    public int getId() { return id; }
 
     public Trainer getTrainer1() {
         return this.trainer1;

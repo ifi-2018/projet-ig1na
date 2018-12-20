@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54c4ae0-6803-4675-95d3-e4d5ffa103f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pokemon-app/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/TrainerWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/FightWebApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/FightController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/bo/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/bo/Fight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/bo/FightLogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/bo/FightLogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -200,12 +191,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545261167759</updated>
-      <workItem from="1545261170710" duration="235000" />
+      <workItem from="1545261170710" duration="1470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235000" />
+    <option name="totallyTimeSpent" value="1470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1061" extended-state="0" />

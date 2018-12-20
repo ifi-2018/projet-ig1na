@@ -9,7 +9,7 @@ public class FightLogs {
 
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
     @ElementCollection
     private List<String> logs;
 
@@ -21,6 +21,10 @@ public class FightLogs {
         System.out.println(log);
         this.logs.add(log);
     }
+
+    public int getId() { return this.id; }
+
+    public void setId(int id ) { this.id = id; }
 
     public List<String> getLogs() {
         return this.logs;
