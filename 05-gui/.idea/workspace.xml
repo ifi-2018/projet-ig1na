@@ -2,26 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c54c4ae0-6803-4675-95d3-e4d5ffa103f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.README.md.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.attach_pid10027" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fights.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fights.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/make-fight.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/make-fight.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/trainers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/trainers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/FightController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/PokemonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/TrainerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/repositories/FightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/repositories/FightRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/test/java/com/ifi/tp/bo/TrainerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/test/java/com/ifi/tp/controller/IndexControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/test/java/com/ifi/tp/service/PokemonServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/FightWebApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/FightWebApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/config/RestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/config/RestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/controller/FightController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/controller/FightController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/bo/Fight.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/fights/bo/Fight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/fights/service/FightService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/pokemonTypes/bo/PokemonType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/bo/Sprites.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/pokemonTypes/bo/Sprites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/pokemonTypes/bo/Stats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/pokemonTypes/service/PokemonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/repositories/FightRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/repositories/FightRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/trainers/bo/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/trainers/bo/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/service/TrainerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/trainers/service/TrainerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/java/com/ifi/tp/trainers/service/TrainerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/public/images/chen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/public/images/chen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/static/images/chen.png" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/static/images/chen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/static/images/female.png" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/static/images/female.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/fight.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/fight.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/pokemons.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/pokemons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/trainer-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/trainer-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/main/resources/templates/trainers.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/main/resources/templates/trainers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pokemon-app/src/test/java/com/ifi/tp/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fight/src/test/java/com/ifi/tp/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,24 +53,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="510">
               <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
             </state>
           </provider>
@@ -71,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/make-fight.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="450">
               <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
             </state>
           </provider>
@@ -80,17 +83,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pokemons.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="315">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fights.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -98,17 +101,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="315">
               <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+            <state relative-caret-position="222">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/PokemonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -116,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="765">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -146,10 +170,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/TrainerController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/fights.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/make-fight.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/trainers.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fights.html" />
       </list>
     </option>
   </component>
@@ -163,8 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +316,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="tp-05-gui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="05-gui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tp" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -305,7 +339,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545348481528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545413012064" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -322,7 +357,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PokemonControllerTest">
+    <configuration name="PokemonControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tp-05-gui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ifi.tp.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ifi.tp.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.ifi.tp.controller.PokemonControllerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrainerWebApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="tp-05-gui" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ifi.tp.TrainerWebApp" />
@@ -330,6 +379,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PokemonControllerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -343,18 +397,27 @@
       <updated>1545261167759</updated>
       <workItem from="1545261170710" duration="1470000" />
       <workItem from="1545318421998" duration="4777000" />
-      <workItem from="1545342703108" duration="5177000" />
+      <workItem from="1545342703108" duration="5929000" />
+      <workItem from="1545412672349" duration="958000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PokemonControllerTest - 2018.12.21 at 18h 19m 04s.xml">
+      <configuration name="PokemonControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokemonControllerTest - 2018.12.21 at 18h 22m 43s.xml">
+      <configuration name="PokemonControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11424000" />
+    <option name="totallyTimeSpent" value="13134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16115262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13607258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -364,7 +427,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32946146" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32946146" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,6 +454,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/bo/Fight.java">
@@ -431,17 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fights.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        <state relative-caret-position="645">
+          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -459,45 +527,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/fights/service/FightServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/make-fight.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/pokemons.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="315">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="51" column="18" lean-forward="true" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/FightController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="51" column="57" selection-start-line="51" selection-start-column="57" selection-end-line="51" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/make-fight.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="765">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/trainers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+        <state relative-caret-position="222">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ifi/tp/controller/PokemonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ifi/tp/controller/PokemonControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fights.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

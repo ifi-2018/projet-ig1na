@@ -34,8 +34,8 @@ class PokemonControllerTest {
     }
 
     @Test
-    void pokmeons_shouldBeAnnotated() throws NoSuchMethodException {
-        var pokemonsMethod = PokemonController.class.getMethod("pokemons");
+    void pokemons_shouldBeAnnotated() throws NoSuchMethodException {
+        var pokemonsMethod = PokemonController.class.getMethod("pokemons", String.class);
         var getMapping = pokemonsMethod.getAnnotation(GetMapping.class);
 
         assertNotNull(getMapping);

@@ -25,17 +25,12 @@
     <div class="container">
         <h1 class="pt-md-5">Fights</h1>
 
-        <!--div class="btn-group pb-md-5" role="group">
-            <a href="/pokemons?view=front" type="button" class="btn {{#view_front}}btn-primary{{/view_front}} {{#view_back}}btn-secondary{{/view_back}}">Front</a>
-            <a href="/pokemons?view=back" type="button" class="btn {{#view_back}}btn-primary{{/view_back}} {{#view_front}}btn-secondary{{/view_front}}">Back</a>
-        </div-->
 
         <div class="list-group">
             {{#fights}}
             <a href="fights/{{id}}" class="list-group-item list-group-item-action">{{trainer1}} VS {{trainer2}} : {{winner}} WINS !</a>
             {{/fights}}
         </div>
-        <a class="btn btn-primary" href="make-fight" role="button">Start a fight !</a>
 
 
     </div>
