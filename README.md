@@ -25,3 +25,5 @@ Se rendre à l'adresse http://localhost:9000
 Pour démarrer un combat, cliquer sur Trainers, et choisir un trainer avec qui combattre, choisir ensuite l'adversaire, puis cliquer sur start, le combat démarre.
 
 Pour voir l'historique des combats, cliquer sur Fights
+
+Pour voir les combats d'un trainer, se rendre sur http://localhost:9000/trainers/fights/{name}
