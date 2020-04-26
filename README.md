@@ -1,4 +1,4 @@
-# LAFRANCE Antoine - Projet J2EE Pokémon
+Projet J2EE Pokémon
 
 ## Récupération du projet 
 
